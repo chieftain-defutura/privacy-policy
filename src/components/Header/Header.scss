@@ -1,0 +1,25 @@
+.header {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 64px;
+  padding: 32px 64px;
+  h2 {
+    &:hover {
+      background: radial-gradient(
+          99.1% 203.74% at 99.1% 94.73%,
+          #671c15 0%,
+          #efd27f 48.11%,
+          #b7581e 100%
+        )
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+}
