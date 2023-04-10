@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.scss";
-import Arrow from "../../assets/images/arrow-background.png";
+import Group from "../../assets/images/group-image.png";
+import Amazon from "../../assets/images/amazon.png";
+import Appstore from "../../assets/images/appstore.png";
+import Google from "../../assets/images/googlestore.png";
 import Header from "../../components/Header";
 const Home: React.FC = () => {
   return (
@@ -8,7 +11,20 @@ const Home: React.FC = () => {
       <div className="home">
         <Header />
         <div className="arrow-image">
-          <img src={Arrow} alt="" />
+          <div className="dark-background"></div>
+
+          <div className="anime-image">
+            <div className="content">
+              <h1>Sprin Verse</h1>
+            </div>
+
+            <img src={Group} alt="" />
+          </div>
+          <div className="apps">
+            <img src={Appstore} alt="" />
+            <img src={Google} alt="" />
+            <img src={Amazon} alt="" />
+          </div>
         </div>
       </div>
     </div>
