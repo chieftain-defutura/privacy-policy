@@ -2,14 +2,17 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
+import Header from "./components/Header";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
+    </>
   );
 }
 
