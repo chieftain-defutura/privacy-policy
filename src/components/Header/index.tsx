@@ -10,16 +10,14 @@ const Header = () => {
       <div className="header">
         <div className="" onClick={() => setActive(0)}>
           <Link to="/">
-            <h2 style={{ color: active === 0 ? "#02D4F8" : "#777777" }}>
-              Home
-            </h2>
+            <h2 className={active === 0 ? "active-color" : "color"}>Home</h2>
           </Link>
         </div>
         <div className="" onClick={() => setActive(1)}>
           <Link to="/privacy-policy">
             <h2
               onClick={() => setActiveColor(!activeColor)}
-              style={{ color: active === 1 ? "#02D4F8" : "#777777" }}
+              className={active === 1 ? "active-color" : "color"}
             >
               Privacy Policy
             </h2>
