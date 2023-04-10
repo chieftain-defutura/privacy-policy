@@ -1,0 +1,43 @@
+.footer-wrapper {
+  .footer-head {
+    padding: 32px 0px;
+    text-align: center;
+    h4 {
+      font-size: 40px;
+      font-weight: 200;
+      margin-bottom: 24px;
+    }
+    .footer-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      a {
+        color: #aaaaaa;
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif;
+        margin-bottom: 16px;
+      }
+    }
+    .footer-media {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+    }
+    .copy-right {
+      margin-top: 26px;
+      .border {
+        border-top: 1px solid rgba(119, 119, 119, 0.3);
+        max-width: 398px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      p {
+        color: #777777;
+        font-size: 16px;
+        margin-top: 12px;
+      }
+    }
+  }
+}

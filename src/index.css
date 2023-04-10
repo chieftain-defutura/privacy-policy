@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Poppins:wght@400;500;600&display=swap");
 
 *,
 ::after,
@@ -24,13 +25,9 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-li {
-  list-style: none;
-}
 
 a {
   text-decoration: none;
-  color: var(--white-color);
 }
 
 h1 {
@@ -48,17 +45,20 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-
   color: #fefcff;
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
+  /* margin-top: 32px; */
+}
+li {
+  margin-top: 16px;
 }
 
 p {
@@ -68,4 +68,12 @@ p {
   font-size: 21px;
   line-height: 36px;
   color: #aaaaaa;
+}
+.list-content {
+  margin-left: 30px;
+}
+.list-content li {
+  font-family: "Montserrat", sans-serif;
+  color: #aaaaaa;
+  font-size: 21px;
 }
