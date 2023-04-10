@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <div className="mx">
       <div className="header">
