@@ -18,7 +18,9 @@ const Home: React.FC = () => {
               <h1>Sprin Verse</h1>
             </div>
 
-            <img src={Group} alt="" />
+            <div className="image">
+              <img src={Group} alt="" />
+            </div>
           </div>
           <div className="apps">
             <img src={Appstore} alt="" />

@@ -1,5 +1,11 @@
 .privacy-policy-wrapper {
   padding: 64px;
+  @media (max-width: 768px) {
+    padding: 42px;
+  }
+  @media (max-width: 576px) {
+    padding: 28px;
+  }
   .privacy-policy-introduction {
     p {
       margin-top: 12px;

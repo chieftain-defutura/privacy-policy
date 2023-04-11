@@ -38,6 +38,21 @@ h1 {
   line-height: 122px;
   color: #fefcff;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+@media (max-width: 420px) {
+  h1 {
+    font-size: 46px;
+  }
+}
 
 h2 {
   font-family: "Audiowide";
@@ -55,7 +70,11 @@ h3 {
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
-  /* margin-top: 32px; */
+}
+@media (max-width: 576px) {
+  h3 {
+    font-size: 22px;
+  }
 }
 li {
   margin-top: 16px;
@@ -69,6 +88,11 @@ p {
   line-height: 36px;
   color: #aaaaaa;
 }
+@media (max-width: 576px) {
+  p {
+    font-size: 18px;
+  }
+}
 .list-content {
   margin-left: 30px;
 }
@@ -76,4 +100,9 @@ p {
   font-family: "Montserrat", sans-serif;
   color: #aaaaaa;
   font-size: 21px;
+}
+@media (max-width: 576px) {
+  .list-content li {
+    font-size: 18px;
+  }
 }

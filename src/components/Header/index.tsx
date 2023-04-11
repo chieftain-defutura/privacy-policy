@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 
-const Header = () => {
+const Header: React.FC = () => {
   const [active, setActive] = useState(0);
   const [activeColor, setActiveColor] = useState(false);
   return (
