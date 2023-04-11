@@ -6,6 +6,7 @@
   background-size: cover;
   position: relative;
   overflow: hidden;
+  background-position: center;
 
   .arrow-image {
     background: url(../../assets/images/arrow-background.png);
@@ -52,7 +53,6 @@
         }
         @media (max-width: 420px) {
           width: 200%;
-          height: 435px;
           left: -45%;
         }
       }
