@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import SprinVerse from "../../assets/images/Sprin Verse.png";
 import "./Header.scss";
 
 import { ReactComponent as Menu } from "../../assets/icons/menu.svg";
@@ -10,14 +11,14 @@ const Header: React.FC = () => {
   const [activeColor, setActiveColor] = useState(false);
   const [open, setOpen] = useState(false);
   return (
-    <div className="mx">
+    <div>
       <div className="header">
         <div className="menu-bar" onClick={() => setOpen(true)}>
           <Menu />
         </div>
         <div className="link" onClick={() => setActive(0)}>
           <Link to="/">
-            <h2 className={active === 0 ? "active-color" : "color"}>Home</h2>
+            <img src={SprinVerse} alt="" />
           </Link>
         </div>
         <div className="link" onClick={() => setActive(1)}>

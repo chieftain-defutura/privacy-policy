@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <h4>Sprin Verse</h4>
           <div className="footer-content">
             <a href="/">Home</a>
-            <a href="/">Privacy Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>
           </div>
           <div className="footer-media">
             <Instagram />
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="copy-right">
             <div className="border"></div>
-            <p>© 2023 Lockwood Publishing. All Rights Reserved.</p>
+            <p>Copyright © 2022 Sprin Verse ® All right reserved</p>
           </div>
         </div>
       </div>

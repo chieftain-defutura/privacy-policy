@@ -6,7 +6,7 @@ import Appstore from "../../assets/images/appstore.png";
 import Google from "../../assets/images/googlestore.png";
 const Home: React.FC = () => {
   return (
-    <div className="mx">
+    <div>
       <div className="home">
         <div className="arrow-image">
           <div className="dark-background"></div>

@@ -3,14 +3,11 @@ import PrivacyPolicy from "../PrivacyPolicy";
 
 import "./PrivacyPolicyHome.scss";
 import HalfbgImg from "../../assets/images/half-background-image.png";
-import Amazon from "../../assets/images/amazon.png";
-import Appstore from "../../assets/images/appstore.png";
-import Google from "../../assets/images/googlestore.png";
 
 const PrivacyPolicyHome: React.FC = () => {
   return (
     <>
-      <div className="mx">
+      <div>
         <div className="privacy-policy-home-wrapper">
           <div className="privacy-arror-img">
             <div className="privacy-dark-background"></div>
@@ -22,12 +19,6 @@ const PrivacyPolicyHome: React.FC = () => {
               <div className="image">
                 <img src={HalfbgImg} alt="" />
               </div>
-            </div>
-
-            <div className="app">
-              <img src={Appstore} alt="" />
-              <img src={Google} alt="" />
-              <img src={Amazon} alt="" />
             </div>
           </div>
         </div>
