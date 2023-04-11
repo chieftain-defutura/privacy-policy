@@ -10,7 +10,9 @@ const Header: React.FC = () => {
     <div>
       <div className="header">
         <div className="logo">
-          <img src={SprinVerse} alt="" />
+          <Link to="/">
+            <img src={SprinVerse} alt="" />
+          </Link>
         </div>
 
         <div className="nav">
