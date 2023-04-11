@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <h4>Sprin Verse</h4>
           <div className="footer-content">
             <a href="/">Home</a>
-            <a href="/">Privacy Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>
           </div>
           <div className="footer-media">
             <Instagram />
