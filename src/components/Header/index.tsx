@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import SprinVerse from "../../assets/images/Sprin Verse.png";
 import "./Header.scss";
 
 const Header: React.FC = () => {
@@ -8,20 +9,26 @@ const Header: React.FC = () => {
   return (
     <div>
       <div className="header">
-        <div className="" onClick={() => setActive(0)}>
-          <Link to="/">
-            <h2 className={active === 0 ? "active-color" : "color"}>Home</h2>
-          </Link>
+        <div className="logo">
+          <img src={SprinVerse} alt="" />
         </div>
-        <div className="" onClick={() => setActive(1)}>
-          <Link to="/privacy-policy">
-            <h2
-              onClick={() => setActiveColor(!activeColor)}
-              className={active === 1 ? "active-color" : "color"}
-            >
-              Privacy Policy
-            </h2>
-          </Link>
+
+        <div className="nav">
+          <div className="" onClick={() => setActive(0)}>
+            <Link to="/">
+              <h2 className={active === 0 ? "active-color" : "color"}>Home</h2>
+            </Link>
+          </div>
+          <div className="" onClick={() => setActive(1)}>
+            <Link to="/privacy-policy">
+              <h2
+                onClick={() => setActiveColor(!activeColor)}
+                className={active === 1 ? "active-color" : "color"}
+              >
+                Privacy Policy
+              </h2>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
