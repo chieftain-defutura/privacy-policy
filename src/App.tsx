@@ -2,14 +2,14 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
+import PrivacyPolicyHome from "./pages/PrivacyPolicyHome";
 
 const App: React.FC = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyHome />} />
       </Routes>
     </>
   );
