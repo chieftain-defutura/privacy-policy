@@ -1,18 +1,17 @@
 import React from "react";
+import PrivacyPolicy from "../PrivacyPolicy";
+
 import "./PrivacyPolicyHome.scss";
 import HalfbgImg from "../../assets/images/half-background-image.png";
-import Header from "../../components/Header";
 import Amazon from "../../assets/images/amazon.png";
 import Appstore from "../../assets/images/appstore.png";
 import Google from "../../assets/images/googlestore.png";
-import PrivacyPolicy from "../PrivacyPolicy";
 
 const PrivacyPolicyHome: React.FC = () => {
   return (
     <>
       <div className="mx">
         <div className="privacy-policy-home-wrapper">
-          <Header />
           <div className="privacy-arror-img">
             <div className="privacy-dark-background"></div>
 

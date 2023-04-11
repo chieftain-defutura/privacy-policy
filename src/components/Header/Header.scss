@@ -8,7 +8,25 @@
   justify-content: flex-end;
   gap: 64px;
   padding: 32px 64px;
+  transition: all 0.5s ease-in-out;
+  @media (max-width: 600px) {
+    justify-content: flex-start;
+  }
+  .menu-bar {
+    cursor: pointer;
+    transition: all 1s ease;
+
+    @media (min-width: 600px) {
+      display: none;
+    }
+  }
+  .link {
+    @media (max-width: 600px) {
+      display: none;
+    }
+  }
   .active-color {
+    transition: all 0.5s ease-in-out;
     background: radial-gradient(
         99.1% 203.74% at 99.1% 94.73%,
         #671c15 0%,
@@ -21,6 +39,33 @@
     background-clip: text;
   }
   .color {
+    transition: all 0.5s ease-in-out;
     color: #fefcff;
+  }
+  .side-bar {
+    position: absolute;
+    height: 90vh;
+    width: 95%;
+    top: 0;
+    left: 10px;
+    background: #242132;
+    z-index: 100;
+    text-align: center;
+    @media (min-width: 600px) {
+      display: none;
+    }
+    .side-link {
+      z-index: 4;
+      text-align: center;
+      padding: 20px;
+    }
+    .close {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 360px;
+      z-index: 14;
+    }
   }
 }

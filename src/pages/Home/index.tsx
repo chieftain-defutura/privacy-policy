@@ -4,12 +4,10 @@ import Group from "../../assets/images/group-image.png";
 import Amazon from "../../assets/images/amazon.png";
 import Appstore from "../../assets/images/appstore.png";
 import Google from "../../assets/images/googlestore.png";
-import Header from "../../components/Header";
 const Home: React.FC = () => {
   return (
     <div className="mx">
       <div className="home">
-        <Header />
         <div className="arrow-image">
           <div className="dark-background"></div>
 
