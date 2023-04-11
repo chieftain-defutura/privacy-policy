@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="copy-right">
             <div className="border"></div>
-            <p>© 2023 Lockwood Publishing. All Rights Reserved.</p>
+            <p>Copyright © 2022 Sprin Verse All right reserved</p>
           </div>
         </div>
       </div>
