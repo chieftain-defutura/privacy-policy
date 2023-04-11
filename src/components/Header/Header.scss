@@ -11,7 +11,8 @@
   padding: 32px 64px;
   transition: all 0.5s ease-in-out;
   @media (max-width: 600px) {
-    justify-content: flex-start;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
   .menu-bar {
     cursor: pointer;
@@ -21,11 +22,37 @@
       display: none;
     }
   }
-  .link {
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    @media (max-width: 600px) {
+      display: none;
+    }
+    .link {
+      @media (max-width: 600px) {
+        display: none;
+      }
+    }
+  }
+  .logo {
+    img {
+      width: 180px;
+    }
     @media (max-width: 600px) {
       display: none;
     }
   }
+  .media-logo {
+    display: none;
+    @media (max-width: 600px) {
+      display: block;
+      h2 {
+        font-size: 48px;
+      }
+    }
+  }
+
   .active-color {
     transition: all 0.5s ease-in-out;
     background: radial-gradient(

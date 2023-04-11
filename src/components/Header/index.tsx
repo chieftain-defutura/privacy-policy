@@ -16,24 +16,37 @@ const Header: React.FC = () => {
         <div className="menu-bar" onClick={() => setOpen(true)}>
           <Menu />
         </div>
-        <div className="link" onClick={() => setActive(0)}>
+        <div className="logo">
           <Link to="/">
             <img src={SprinVerse} alt="" />
           </Link>
         </div>
-        <div className="link" onClick={() => setActive(1)}>
-          <Link to="/privacy-policy">
-            <h2
-              onClick={() => setActiveColor(!activeColor)}
-              className={active === 1 ? "active-color" : "color"}
-            >
-              Privacy Policy
-            </h2>
+        <div className="media-logo">
+          <Link to="/">
+            <h2>SV</h2>
           </Link>
+        </div>
+
+        <div className="nav">
+          <div className="link" onClick={() => setActive(0)}>
+            <Link to="/">
+              <h2 className={active === 0 ? "active-color" : "color"}>Home</h2>
+            </Link>
+          </div>
+          <div className="link" onClick={() => setActive(1)}>
+            <Link to="/privacy-policy">
+              <h2
+                onClick={() => setActiveColor(!activeColor)}
+                className={active === 1 ? "active-color" : "color"}
+              >
+                Privacy Policy
+              </h2>
+            </Link>
+          </div>
         </div>
         {open && (
           <div className="side-bar">
-            <div className="logo">
+            <div className="side-logo">
               <h1>SV</h1>
             </div>
             <div className="side-link" onClick={() => setActive(0)}>
