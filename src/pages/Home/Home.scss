@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow: hidden;
+
   .arrow-image {
     background: url(../../assets/images/arrow-background.png);
     width: 100%;
@@ -22,7 +24,9 @@
       .content {
         position: absolute;
         width: 100%;
-        padding-top: 11rem;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -40,8 +44,12 @@
           object-fit: cover;
         }
         @media (max-width: 576px) {
-          width: 100%;
-          left: 1%;
+          width: 140%;
+          left: -18%;
+        }
+        @media (max-width: 576px) {
+          width: 160%;
+          left: -30%;
         }
       }
     }
