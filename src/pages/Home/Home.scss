@@ -42,10 +42,11 @@
         width: 55%;
         bottom: 0;
         left: 23%;
+        object-fit: cover;
+
         @media (max-width: 768px) {
           width: 75%;
           left: 14%;
-          object-fit: cover;
         }
         @media (max-width: 576px) {
           width: 140%;
