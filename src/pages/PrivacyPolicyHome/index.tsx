@@ -10,7 +10,7 @@ import PrivacyPolicy from "../PrivacyPolicy";
 const PrivacyPolicyHome: React.FC = () => {
   return (
     <>
-      <div className="mx">
+      <div>
         <div className="privacy-policy-home-wrapper">
           <Header />
           <div className="privacy-arror-img">

@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   const [active, setActive] = useState(0);
   const [activeColor, setActiveColor] = useState(false);
   return (
-    <div className="mx">
+    <div>
       <div className="header">
         <div className="" onClick={() => setActive(0)}>
           <Link to="/">

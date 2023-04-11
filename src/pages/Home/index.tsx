@@ -7,7 +7,7 @@ import Google from "../../assets/images/googlestore.png";
 import Header from "../../components/Header";
 const Home: React.FC = () => {
   return (
-    <div className="mx">
+    <div>
       <div className="home">
         <Header />
         <div className="arrow-image">
