@@ -39,8 +39,8 @@
     }
   }
   .logo {
-    img {
-      width: 180px;
+    h1 {
+      font-size: 32px;
     }
     @media (max-width: 600px) {
       display: none;

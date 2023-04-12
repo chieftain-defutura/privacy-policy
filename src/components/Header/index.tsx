@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import SprinVerse from "../../assets/images/Sprin Verse.png";
+// import SprinVerse from "../../assets/images/Sprin Verse.png";
 import "./Header.scss";
 
 import { ReactComponent as Menu } from "../../assets/icons/menu.svg";
@@ -19,7 +19,7 @@ const Header: React.FC<{}> = () => {
         </div>
         <div className="logo">
           <Link to="/">
-            <img src={SprinVerse} alt="" />
+            <h1>Sprinverse</h1>
           </Link>
         </div>
         <div className="media-logo">

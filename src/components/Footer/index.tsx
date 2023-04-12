@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
     <div className="footer-wrapper">
       <div className="mx">
         <div className="footer-head">
-          <h4>Sprin Verse</h4>
+          <h4>Sprinverse</h4>
           <div className="footer-content">
             <a href="/">Home</a>
             <a href="/privacy-policy">Privacy Policy</a>
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="copy-right">
             <div className="border"></div>
-            <p>Copyright © 2022 Sprin Verse ® All right reserved</p>
+            <p>Copyright © 2022 Sprinverse ® All right reserved</p>
           </div>
         </div>
       </div>

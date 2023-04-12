@@ -13,7 +13,7 @@ const Home: React.FC = () => {
 
           <div className="anime-image">
             <div className="content">
-              <h1>Sprin Verse</h1>
+              <h1>Sprinverse</h1>
             </div>
 
             <img src={Group} alt="" />
